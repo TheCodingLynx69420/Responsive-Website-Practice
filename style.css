@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Adding basic settings of css (font family is optional)*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    padding: 25px;
+    border-bottom: 3px solid gainsboro;
+
+}
+
+/*Navbar's list styling*/
+
+.nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-weight: 600;
+}
+
+/*Navbar's anchor tag*/
+
+.nav a {
+    text-decoration: none;
+    color: rgb(96, 97, 97);
+
+}
+
+/*Sign in button styles*/
+
+.sign {
+    border: none;
+    color: white;
+    background-color: rgb(46, 175, 132);
+    padding: 1vw;
+    border-radius: 7%;
+    font-size: 1vw;
+    font-weight: 600;
+
+
+}
+
+/*hover effects for sign in button*/
+
+.sign:hover {
+    background-color: gainsboro;
+    color: rgb(10, 166, 114);
+    border-radius: 5%;
+    transition-duration: 1s;
+}
+
+/*Adding navbar's optional hovering effects (looks so good btw)*/
+
+.nav a:hover {
+    background-color: rgb(149, 149, 151);
+    color: white;
+    padding: 2vh;
+    transition-duration: 1s;
+    border-radius: 10%;
+
+}
+
+/*For this example i have only typed logo instead of using an actual image, so if you intend to add an image remove this lower code and add image's styling like height width etc*/
+
+.logo {
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+
+}
+
+/*the arrow only appears in vertical mode of website for mobiles (refer to media query below)*/
+
+.arrow {
+    font-weight: 1000;
+    display: none;
+    color: rgb(137, 135, 135);
+}
+
+/*The headings and text sample's styling*/
+
+.main {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+}
+
+/*Left text section*/
+
+.left {
+    width: 50%;
+    height: 100%;
+    padding: 6vw;
+}
+
+.left h1 {
+    font-size: 3.5vw;
+}
+
+/*i used span tag to style the word "coolest" separately*/
+span {
+    color: rgb(46, 175, 132);
+}
+
+.res {
+    color: black;
+}
+
+.left p {
+    font-size: 1.5vw;
+    color: gray;
+    line-height: 4vh;
+
+}
+
+/*the CTA button*/
+
+.left button {
+    border: none;
+    color: white;
+    background-color: rgb(46, 175, 132);
+    padding: 1vw;
+    border-radius: 5%;
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin: 1vw;
+}
+
+/*Adding optional hovering effects for the button*/
+
+.left button:hover {
+    background-color: gainsboro;
+    color: rgb(10, 166, 114);
+    padding: 2vh;
+    border-radius: 7%;
+    transition-duration: 1s;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.right img {
+    height: 45vw;
+    width: 45vw;
+}
+
+/*-----media query section for mobile users:-*/
+
+@media (max-width : 600px) {
+    .arrow {
+        display: block;
+        justify-content: end;
+        display: flex;
+        font-size: x-large;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 9vw;
+        text-align: center;
+    }
+
+    .res {
+        color: rgb(110, 160, 140);
+        text-decoration: underline;
+        font-style: oblique;
+    }
+
+    .left p {
+        font-size: 3.5vw;
+        line-height: 3.5vh;
+
+
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right img {
+        width: 100%;
+        height: 100%;
+        padding: 10px
+    }
+
+    .left button {
+        font-size: 2.3vh;
+        padding: 1.5vh;
+        margin-left: 95px;
+    }
+
+}
