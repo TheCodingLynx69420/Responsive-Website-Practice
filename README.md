@@ -19,6 +19,8 @@
 
 <p>A heading with 2 span tags to give the "coolest" text one a different color while the other "responsive" text one would change its color when the user switches to mobile mode (600px width) and the heading would go into centered text mode to give more freshing look</p>
 
+<p>The Navbar's List dissapears when entered in mobile mode (for now i havnt add any feature for expanding it by clicking or hovering) but i believe that it can be done easily with Javascript</p>
+
 <p>A button (with the same styles of sign in button) centered when changed to mobile mode</p>
 
 <p>finally the picture which i find on Freepik because it matched with the website's theme (i dont own it okay? if you are the owner, thank you!)</p>
