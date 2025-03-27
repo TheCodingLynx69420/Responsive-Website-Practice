@@ -15,7 +15,7 @@
 
 ![image](https://github.com/user-attachments/assets/82d8d16a-9fd7-4b69-9d3b-e9d765f31275)
 
-<h2>Main Content</h2>
+<h2>Main Content & Responsiveness</h2>
 
 <p>A heading with 2 span tags to give the "coolest" text one a different color while the other "responsive" text one would change its color when the user switches to mobile mode (600px width) and the heading would go into centered text mode to give more freshing look</p>
 
