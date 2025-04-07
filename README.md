@@ -1,7 +1,5 @@
 # Practice of Responsive Website
 
-<p>Hello this is a commited change</p>
-
 <h1>Introduction:</h1>
 <p>I was bored, and decided to test my skills on responsive websites (beause i was so bad at it), so i decided to hop on my pc and started coding a website first, it was really troublesome since i was having lots of trouble making media queries (i watched some coding videos for media queries for help) and made this</p>
 
